@@ -17,6 +17,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 100%;
 }
 
 /* header */
@@ -75,6 +76,7 @@ section {
 
 /* about */
 .about div {
+    box-sizing: border-box;
     border: 5px solid rgba(36, 23, 23, 0.849);
     border-radius: 10px;
     background-color: rgb(31, 149, 31);
@@ -193,12 +195,14 @@ td {
 }
 
 .contact div {
+    box-sizing: border-box;
     margin: 30px auto;
     padding: 120px;
     min-width: 500px;
 }
 
 .contact input {
+    box-sizing: border-box;
     margin: 15px 50px;
     padding: 15px 20px;
     border-radius: 10px;
@@ -218,6 +222,7 @@ td {
 
 .contact input,
 textarea {
+    box-sizing: border-box;
     color: black;
     border: none;
 }
